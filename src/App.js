@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Collapse from './components/Collapse';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Collapse
+      collapsedLabel='Подробнее'
+      expandedLabel='Скрыть'
+      isExpanded={false}
+    >
+      <p>Dori me. Interimo adapare dori me. Ameno ameno latire. Latiremo. Dori me. Ameno. Omenare imperavi ameno. Dimere dimere matiro. Matiremo. Ameno. Omenare imperavi emulari Ameno. Omenare imperavi emulari. Ameno Ameno dore. Ameno dori me. Ameno dori me. Ameno dom. Dori me reo. Ameno dori me. Ameno dori me. Dori me am. Ameno. Omenare imperavi ameno. Dimere dimere matiro. Matiremo. Ameno. Omenare imperavi emulari Ameno. Omenare imperavi emulari. Ameno Ameno dore. Ameno dori me. Ameno dori me. Ameno dom. Dori me reo. Ameno dori me. Ameno dori me. Dori me ameno.</p>
+    </Collapse>
   );
 }
 
